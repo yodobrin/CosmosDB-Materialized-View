@@ -1,0 +1,7 @@
+*.dll
+**/appsetting*.json
+**/.DS_Store
+**/obj/*
+**/bin/*
+
+
