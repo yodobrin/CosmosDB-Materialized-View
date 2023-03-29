@@ -66,7 +66,7 @@ The data producer is a console application that generates simulated sensor data 
     "EndpointURI": "https://<your-cosmos-account-name>.documents.azure.com:443/",  
     "Key": "<a read/write key>",  
     "Database": "<your-db-name>",  
-    "Collection": "<your-sensor-container-name>""  
+    "Collection": "<your-sensor-container-name>" 
   }  
 } 
 ```
@@ -107,6 +107,8 @@ Navigate to the floder `view-processor` and run the following command:
 ```bash
 dotnet run 
 ```
+
+Any keystorke will stop the processor.
 
 ### Step 6: Query the Materialized View
 
