@@ -14,7 +14,8 @@ here's a summary of the steps to create a materialized view using a custom chang
 
 - No additional mechanism is needed to refresh the materialized view container as the changefeed processor will automatically update the container whenever new data is added, modified or deleted in the source data.
 
-### Further Reading
+<details>
+<summary>Further Reading</summary>
 
 Creating a materialized view using a custom changefeed processor is an effective way to streamline and optimize data processing workflows on Azure Cosmos DB SQL API. A materialized view is a precomputed summary of data that is stored in a container, making queries much faster and reducing the amount of processing power required to execute them. The custom changefeed processor listens for changes to the source data and updates the materialized view container accordingly, ensuring that the view stays up-to-date with the source data. 
 
@@ -27,6 +28,8 @@ Once the changefeed processor is set up, custom code needs to be written to exec
 Finally, no additional mechanism is needed to refresh the materialized view container as the changefeed processor will automatically update the container whenever new data is added, modified or deleted in the source data. 
 
 Overall, creating a materialized view using a custom changefeed processor on Azure Cosmos DB SQL API can significantly improve query performance and optimize data processing workflows. By following the above steps and leveraging the right tools and frameworks, a robust and efficient system can be created for storing and querying data.
+
+</details>
 
 ## What's included?
 
